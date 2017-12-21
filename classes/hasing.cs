@@ -63,5 +63,14 @@ namespace classes
 
             return hash;
         }
+
+        public string crc32(string text)
+        {
+            //crc32 hasher = new crc32();
+            //string hash = hasher.encode(text);
+
+            //return hash;
+            return "";
+        }
     }
 }
