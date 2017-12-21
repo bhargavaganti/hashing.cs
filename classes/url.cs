@@ -13,7 +13,7 @@ using System.Threading.Tasks;
  */
 namespace classes
 {
-    public class url : encoder
+    internal class url : encoder
     {
         public string encode(string text)
         {

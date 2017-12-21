@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="base64.cs" />
     <Compile Include="encoder.cs" />
+    <Compile Include="hasing.cs" />
     <Compile Include="md5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sha256ascii.cs" />

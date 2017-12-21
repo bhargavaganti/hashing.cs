@@ -13,7 +13,7 @@ using System.Threading.Tasks;
  */
 namespace classes
 {
-    public class sha256 : encoder
+    internal class sha256 : encoder
     {
         public string encode(string text)
         {

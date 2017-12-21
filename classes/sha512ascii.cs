@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace classes
 {
-    public class sha512ascii : encoder
+    internal class sha512ascii : encoder
     {
         public string encode(string text)
         {

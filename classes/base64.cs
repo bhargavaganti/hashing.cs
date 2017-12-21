@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  */
 namespace classes
 {
-    public class base64 : encoder
+    internal class base64 : encoder
     {
         public string encode(string text)
         {

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
  */
 namespace classes
 {
-    public class md5 : encoder
+    internal class md5 : encoder
     {
         public string encode(string text)
         {
