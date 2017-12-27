@@ -1,18 +1,13 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using hashing.classes;
+﻿using hashing.classes;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace hashing.tests
 {
     [TestClass()]
-    public class sha256asciiTests
+    public class Sha256asciiTests
     {
         [TestMethod()]
-        public void sha256asciiEncodeTest()
+        public void Sha256asciiEncodeTest()
         {
             string orignal = "A Quick Brown Fox Jumps Over The Lazy Dog.";
 

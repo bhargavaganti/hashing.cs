@@ -1,9 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace hashing.tests
 {
@@ -26,6 +21,7 @@ namespace hashing.tests
             //Assert.AreEqual(expected, encoded);
             //Assert.AreEqual(original, decoded);
             //Assert.AreNotEqual(original, encoded);
+            Assert.Fail();
         }
 
         [TestMethod()]
@@ -42,6 +38,7 @@ namespace hashing.tests
 
             //Assert.AreEqual(expect, decoded);
             //Assert.AreNotEqual(encoded, decoded);
+            Assert.Fail();
         }
     }
 }

@@ -1,9 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace hashing.tests
 {
@@ -28,6 +23,7 @@ namespace hashing.tests
 
             //// {"Assert.AreEqual failed. Expected:<ea042b28a2fbae914d42c5db8d0c8c170c9a390add18d042b4ec04b011750b922a0fd79690a13a233ece0c5a7fd3083063dab92afcc40647e18ee9b5de574cc1>. Actual:<�\u0004+(����MB�ۍ\f�\u0017\f�9\n�\u0018�B��\u0004�\u0011u\v�*\u000fז��:#>�\fZ\u007f�\b0cڹ*��\u0006G���WL�>. "}
             //Assert.AreEqual(expect, encoded);
+            Assert.Fail();
         }
     }
 }

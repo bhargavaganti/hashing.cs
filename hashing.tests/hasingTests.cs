@@ -1,10 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using hashing.classes;
+﻿using hashing.classes;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 /**
  * php -r "print_r(hash_algos());"
@@ -60,8 +55,15 @@ namespace hashing.tests
 
         [TestMethod()]
         [TestCategory("Hasher")]
-        public void sha512Test()
+        public void Sha512Test()
         {
+            string orignal = "A Quick Brown Fox Jumps Over The Lazy Dog.";
+
+            sha256ascii sha = new sha256ascii();
+            string encoded = sha.encode(orignal);
+            string expect = "a0b301f8b219bd504f52c116289f1285a3dcf2d30ff89753e40a7e6f94e61990";
+
+            Assert.AreEqual(expect, encoded);
             Assert.Fail();
         }
 

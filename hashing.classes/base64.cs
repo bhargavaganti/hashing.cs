@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 /**
  * @see https://stackoverflow.com/questions/11743160/how-do-i-encode-and-decode-a-base64-string

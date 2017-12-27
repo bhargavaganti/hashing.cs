@@ -1,9 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace hashing.tests
 {
@@ -39,6 +34,7 @@ namespace hashing.tests
             //string expect = "1e10b5a2e4f551bfb8ab46c5c998a998";
 
             //Assert.AreEqual(expect, encoded);
+            Assert.Fail();
         }
     }
 }

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 /**
  * @see https://stackoverflow.com/questions/12416249/hashing-a-string-with-sha256

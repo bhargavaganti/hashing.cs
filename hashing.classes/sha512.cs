@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 /**
  * @see https://msdn.microsoft.com/en-us/library/s02tk69a(v=vs.110).aspx
