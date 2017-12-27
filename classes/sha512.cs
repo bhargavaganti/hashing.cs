@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * 
  * @see https://docs.microsoft.com/en-us/dotnet/standard/security/cryptographic-services
  */
-namespace classes
+namespace hashing.classes
 {
     internal class sha512 : encoder
     {

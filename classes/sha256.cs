@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * @see http://www.faqs.org/rfcs/rfc3174.html
  * @see https://stackoverflow.com/questions/12416249/hashing-a-string-with-sha256
  */
-namespace classes
+namespace hashing.classes
 {
     internal class sha256 : encoder
     {

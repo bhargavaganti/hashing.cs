@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  * @see http://md5decoder.org/
  * @see http://hash.urih.com/example/
  */
-namespace classes
+namespace hashing.classes
 {
     internal class md5 : encoder
     {

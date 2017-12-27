@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forms", "forms\forms.csproj", "{584D1834-8ADA-4269-A60B-C5029F239AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashing.forms", "forms\hashing.forms.csproj", "{584D1834-8ADA-4269-A60B-C5029F239AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{76F1718A-4867-4BA1-881E-9491CC17281E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hashing.classes", "classes\hashing.classes.csproj", "{76F1718A-4867-4BA1-881E-9491CC17281E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{7BAA9860-90B6-4473-94A9-B9BA9314044A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hasing.tests", "tests\hasing.tests.csproj", "{7BAA9860-90B6-4473-94A9-B9BA9314044A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

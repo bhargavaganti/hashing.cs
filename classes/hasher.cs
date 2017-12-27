@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace classes
+namespace hashing.classes
 {
-    public class hasing
+    public class hasher
     {
         public string md5(string text)
         {

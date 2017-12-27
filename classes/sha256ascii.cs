@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /**
  * @see https://stackoverflow.com/questions/12416249/hashing-a-string-with-sha256
  */
-namespace classes
+namespace hashing.classes
 {
     public class sha256ascii : encoder
     {

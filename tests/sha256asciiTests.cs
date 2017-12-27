@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using hashing.classes;
 
-namespace classes.Tests
+namespace hashing.tests
 {
     [TestClass()]
     public class sha256asciiTests

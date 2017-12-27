@@ -1,5 +1,4 @@
-﻿using classes;
-using forms;
+﻿using hashing.classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace forms
+namespace hashing.forms
 {
     public partial class Form1 : Form
     {
@@ -21,7 +20,7 @@ namespace forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.base64_encode(textBox1.Text);
 
             //base64 bs = new base64();
@@ -32,7 +31,7 @@ namespace forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.base64_decode(textBox2.Text);
 
             //base64 bs = new base64();
@@ -43,7 +42,7 @@ namespace forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.md5(textBox1.Text);
 
             //md5 md5 = new md5();
@@ -54,7 +53,7 @@ namespace forms
 
         private void button4_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.sha256(textBox1.Text);
 
             //sha256 sha = new sha256();
@@ -65,7 +64,7 @@ namespace forms
 
         private void button5_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.sha512(textBox1.Text);
 
             //sha512 sha = new sha512();
@@ -81,7 +80,7 @@ namespace forms
 
         private void button6_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.sha256ascii(textBox1.Text);
 
             //sha256ascii sha = new sha256ascii();
@@ -92,7 +91,7 @@ namespace forms
 
         private void button7_Click(object sender, EventArgs e)
         {
-            hasing h = new hasing();
+            hasher h = new hasher();
             string output = h.sha512ascii(textBox1.Text);
 
             //sha512ascii sha = new sha512ascii();

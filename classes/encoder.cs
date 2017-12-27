@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace classes
+namespace hashing.classes
 {
     /**
      * @see http://php.net/manual/en/faq.passwords.php#faq.passwords.fasthash

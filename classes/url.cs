@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * @see https://msdn.microsoft.com/en-us/library/4fkewx0t(v=vs.110).aspx
  * @todo Solution not found to url encoder decoder
  */
-namespace classes
+namespace hashing.classes
 {
     internal class url : encoder
     {

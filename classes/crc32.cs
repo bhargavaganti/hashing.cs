@@ -1,12 +1,11 @@
-﻿using classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace classes
+namespace hashing.classes
 {
     internal class crc32a : encoder
     {

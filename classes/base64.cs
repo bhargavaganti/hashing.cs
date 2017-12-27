@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * @see https://stackoverflow.com/questions/11743160/how-do-i-encode-and-decode-a-base64-string
  * @see https://www.base64decode.org/
  */
-namespace classes
+namespace hashing.classes
 {
     internal class base64 : encoder
     {

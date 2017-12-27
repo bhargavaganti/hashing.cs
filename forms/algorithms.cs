@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace forms
+namespace hashing.forms
 {
     public class algorithms
     {
