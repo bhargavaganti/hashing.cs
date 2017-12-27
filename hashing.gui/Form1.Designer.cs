@@ -1,4 +1,4 @@
-﻿namespace hashing.forms
+﻿namespace hashing.gui
 {
     partial class Form1
     {

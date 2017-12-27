@@ -7,8 +7,8 @@
     <ProjectGuid>{584D1834-8ADA-4269-A60B-C5029F239AE2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hasing.forms</RootNamespace>
-    <AssemblyName>hasing.forms</AssemblyName>
+    <RootNamespace>hasing.gui</RootNamespace>
+    <AssemblyName>hasing.gui</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

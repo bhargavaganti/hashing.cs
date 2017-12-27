@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace hashing.forms
+namespace hashing.gui
 {
     public partial class Form1 : Form
     {
