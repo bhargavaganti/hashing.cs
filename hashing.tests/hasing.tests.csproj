@@ -52,12 +52,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="base64Tests.cs" />
-    <Compile Include="hasingTests.cs" />
     <Compile Include="md5Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sha256asciiTests.cs" />
     <Compile Include="sha256Tests.cs" />
-    <Compile Include="sha512asciiTests.cs" />
     <Compile Include="sha512Tests.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using hashing.classes;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace hashing.tests
 {
@@ -6,35 +7,21 @@ namespace hashing.tests
     public class md5Tests
     {
         [TestMethod()]
-        public void MD5EncodeTest()
-        {
-            //string orignal = "";
-
-            //md5 md5 = new md5();
-            //string encoded = md5.encode(orignal);
-            //string expect = "d41d8cd98f00b204e9800998ecf8427e";
-
-            //Assert.AreEqual(expect, encoded);
-        }
-
-        [TestMethod()]
-        public void MD5EncodeTest2()
+        [TestCategory("MD5")]
+        public void md5Test()
         {
             /**
-             * SQL: SELECT MD5("A Quick Brown Fox Jumps Over The Lazy Dog.");
-             * PHP: echo md5("A Quick Brown Fox Jumps Over The Lazy Dog.");
-             * PHP: php -r "echo md5('A Quick Brown Fox Jumps Over The Lazy Dog.');"
-             * PHP: php -r "echo hash('md5', 'A Quick Brown Fox Jumps Over The Lazy Dog.');"
-             * C#
+             * SQL: SELECT MD5("A quick brown fox jumps over the lazy dog.");
+             * PHP: php -r "echo md5('A quick brown fox jumps over the lazy dog.');"
+             * PHP: php -r "echo hash('md5', 'A quick brown fox jumps over the lazy dog.');"
+             * 
+             * df756a3769fcab0a261880957590c768
              */
-            //string orignal = "A Quick Brown Fox Jumps Over The Lazy Dog.";
+            hasher h = new hasher();
+            string hash = h.md5("A quick brown fox jumps over the lazy dog.");
+            string expect = "df756a3769fcab0a261880957590c768";
 
-            //md5 md5 = new md5();
-            //string encoded = md5.encode(orignal);
-            //string expect = "1e10b5a2e4f551bfb8ab46c5c998a998";
-
-            //Assert.AreEqual(expect, encoded);
-            Assert.Fail();
+            Assert.AreEqual(expect, hash);
         }
     }
 }

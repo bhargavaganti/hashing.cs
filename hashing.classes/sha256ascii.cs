@@ -7,7 +7,7 @@ using System.Text;
  */
 namespace hashing.classes
 {
-    public class sha256ascii : encoder
+    internal class sha256ascii : encoder
     {
         public string encode(string text)
         {

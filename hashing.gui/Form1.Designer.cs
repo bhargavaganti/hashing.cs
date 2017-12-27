@@ -140,7 +140,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(227, 301);
+            this.label1.Location = new System.Drawing.Point(230, 301);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 11;
@@ -165,6 +165,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Encoding/Decoding";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
