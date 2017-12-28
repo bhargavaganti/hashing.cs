@@ -7,6 +7,8 @@ using System.Text;
  * @see https://msdn.microsoft.com/en-us/library/system.security.cryptography.sha256managed(v=vs.110).aspx
  * @see http://www.faqs.org/rfcs/rfc3174.html
  * @see https://stackoverflow.com/questions/12416249/hashing-a-string-with-sha256
+ * @see https://www.code4copy.com/csharp/best-way-to-hash-password-in-c/
+ * output = Convert.ToBase64String(sha.Hash);
  */
 namespace hashing.classes
 {

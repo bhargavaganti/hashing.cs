@@ -18,7 +18,7 @@ namespace hashing.classes
                 byte[] bytes = Encoding.UTF8.GetBytes(text);
                 output = Convert.ToBase64String(bytes).ToString();
             }
-            catch(Exception)
+            catch (Exception)
             {
 
             }
@@ -34,7 +34,7 @@ namespace hashing.classes
                 byte[] bytes = Convert.FromBase64String(text);
                 otuput = Encoding.UTF8.GetString(bytes);
             }
-            catch(Exception)
+            catch (Exception)
             {
 
             }
