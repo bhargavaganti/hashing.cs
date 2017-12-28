@@ -34,10 +34,10 @@ namespace hashing.tests
              * A quick brown fox jumps over the lazy dog.
              */
             hasher h = new hasher();
-            string hash = h.base64_decode("QSBxdWljayBicm93biBmb3gganVtcHMgb3ZlciB0aGUgbGF6eSBkb2cu");
+            string original = h.base64_decode("QSBxdWljayBicm93biBmb3gganVtcHMgb3ZlciB0aGUgbGF6eSBkb2cu");
             string expect = "A quick brown fox jumps over the lazy dog.";
 
-            Assert.AreEqual(expect, hash);
+            Assert.AreEqual(expect, original);
         }
     }
 }
