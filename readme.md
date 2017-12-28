@@ -37,3 +37,10 @@ Output has to be equivalent to __php -r "echo hash('sha512', 'A quick brown fox 
 	hasher h = new hasher();
 	string hash = h.sha512("A quick brown fox jumps over the lazy dog.");
 	string hash = h.sha512ascii("A quick brown fox jumps over the lazy dog.");
+
+
+## GUI
+
+![Hashing GUI](hashing-gui.png)
+
+You can see the outputs on screen as well.
