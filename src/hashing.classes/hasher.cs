@@ -106,7 +106,16 @@ namespace hashing.classes
         {
             string salt = "1f Mi55in6 p@$$vv0rd";
             rinjdel h = new rinjdel(password+salt);
-            string encryptedstring = h.encode(orignal);
+
+            string encryptedstring;
+            try
+            {
+                encryptedstring = h.encode(orignal);
+            }
+            catch(Exception)
+            {
+                encryptedstring = "Encoding error";
+            }            
 
             return encryptedstring;
         }
@@ -115,7 +124,16 @@ namespace hashing.classes
         {
             string salt = "1f Mi55in6 p@$$vv0rd";
             rinjdel h = new rinjdel(password+salt);
-            string decryptedstring = h.decode(cypher);
+
+            string decryptedstring;
+            try
+            {
+                decryptedstring = h.decode(cypher);
+            }
+            catch (Exception)
+            {
+                decryptedstring = "Decoding error";
+            }
 
             return decryptedstring;
         }
