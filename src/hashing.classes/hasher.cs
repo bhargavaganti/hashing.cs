@@ -1,4 +1,6 @@
-﻿namespace hashing.classes
+﻿using System;
+
+namespace hashing.classes
 {
     /**
      * List of hashing algorithms:
@@ -68,6 +70,54 @@
             string hash = h.encode(text);
 
             return hash;
+        }
+
+        public string rinjdel_encode(string text)
+        {
+            /**
+             * Default key when password is NOT supplied
+             * To be same as as other part
+             */
+            string password = "something extremely secret";
+
+            //rinjdel h = new rinjdel(password);
+            //string encryptedstring = h.encode(text);
+            string encryptedstring = this.rinjdel_encode(text, password);
+
+            return encryptedstring;
+        }
+
+        public string rinjdel_decode(string text)
+        {
+            /**
+             * Default key when password is NOT supplied
+             * To be same as as other part
+             */
+            string password = "something extremely secret";
+
+            //rinjdel h = new rinjdel(password);
+            //string decryptedstring = h.decode(text);
+            string decryptedstring = this.rinjdel_decode(text, password);
+
+            return decryptedstring;
+        }
+
+        public string rinjdel_encode(string orignal, string password)
+        {
+            string salt = "1f Mi55in6 p@$$vv0rd";
+            rinjdel h = new rinjdel(password+salt);
+            string encryptedstring = h.encode(orignal);
+
+            return encryptedstring;
+        }
+
+        public string rinjdel_decode(string cypher, string password)
+        {
+            string salt = "1f Mi55in6 p@$$vv0rd";
+            rinjdel h = new rinjdel(password+salt);
+            string decryptedstring = h.decode(cypher);
+
+            return decryptedstring;
         }
     }
 }
