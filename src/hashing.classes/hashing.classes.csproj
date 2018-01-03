@@ -56,7 +56,7 @@
     <Compile Include="engines\sha512.cs" />
     <Compile Include="engines\url.cs" />
     <Compile Include="des.cs" />
-    <Compile Include="rinjdel.cs" />
+    <Compile Include="rinjdael.cs" />
     <Compile Include="sha.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
