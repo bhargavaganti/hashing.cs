@@ -41,18 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="base64.cs" />
     <Compile Include="engines\base64.cs" />
+    <Compile Include="engines\des.cs" />
     <Compile Include="engines\encoder.cs" />
     <Compile Include="hasher.cs" />
     <Compile Include="engines\md5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="engines\rinjdel.cs" />
+    <Compile Include="engines\rinjdael.cs" />
     <Compile Include="engines\sha256ascii.cs" />
     <Compile Include="engines\sha256.cs" />
     <Compile Include="engines\crc32.cs" />
     <Compile Include="engines\sha512ascii.cs" />
     <Compile Include="engines\sha512.cs" />
     <Compile Include="engines\url.cs" />
+    <Compile Include="des.cs" />
+    <Compile Include="rinjdel.cs" />
+    <Compile Include="sha.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

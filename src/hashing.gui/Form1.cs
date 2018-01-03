@@ -96,14 +96,14 @@ namespace hashing.gui
         private void button8_Click(object sender, EventArgs e)
         {
             hasher h = new hasher();
-            string output = h.rinjdel_encode(textBox1.Text, "password");
+            string output = h.rinjdael_encode(textBox1.Text, "password");
             textBox2.Text = output;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             hasher h = new hasher();
-            string output = h.rinjdel_decode(textBox2.Text, "password");
+            string output = h.rinjdael_decode(textBox2.Text, "password");
             textBox1.Text = output;
         }
     }

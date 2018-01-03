@@ -52,7 +52,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="base64Tests.cs" />
-    <Compile Include="rinjdelTests.cs" />
+    <Compile Include="desTests.cs" />
+    <Compile Include="rinjdaelTests.cs" />
     <Compile Include="md5Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sha256Tests.cs" />
