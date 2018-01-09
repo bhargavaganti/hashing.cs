@@ -23,5 +23,23 @@ namespace hashing.tests
 
             Assert.AreEqual(expect, hash);
         }
+
+        [TestMethod()]
+        [TestCategory("MD5")]
+        public void md5UnicodeTest()
+        {
+            /**
+             * SQL: SELECT MD5('क का कि की कु कू के कै को कौ');
+             * 
+             * c55a55aff4906fa6b2d3c901c63dea47
+             */
+            string orignal = "क का कि की कु कू के कै को कौ";
+
+            hasher h = new hasher();
+            string hash = h.md5(orignal);
+            string expect = "c55a55aff4906fa6b2d3c901c63dea47";
+
+            Assert.AreEqual(expect, hash);
+        }
     }
 }

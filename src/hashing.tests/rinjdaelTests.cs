@@ -14,17 +14,6 @@ namespace hashing.classes.Tests
     public class rinjdaelTests
     {
         [TestMethod()]
-        public void rinjdel_encodeTest()
-        {
-            // all times, cypher changes
-            //string cypher_expected = "IFFE3PEx1S+v7n27B1ZNXqK81W47xgpjda9X7F4B21dXwvl02R3QOZalfSqkYDvuP5rarmna4WuGd7NV9KgKpbGXHOT4ABkvBd+eOXdw55DCdwK2t+DkQ9Wfr+XrHhsf";
-            //Assert.AreEqual(cypher_expected, cypher);
-
-            // no need to implement
-            Assert.Fail();
-        }
-
-        [TestMethod()]
         public void rinjdael_decodeTest()
         {
             string orignal = "I am a test.";

@@ -39,5 +39,27 @@ namespace hashing.tests
 
             Assert.AreEqual(expect, original);
         }
+
+        [TestMethod()]
+        [TestCategory("Base64")]
+        public void Base64UnicodeTest()
+        {
+            /**
+             * SQL: SELECT TO_BASE64('क का कि की कु कू के कै को कौ');
+             * PHP: php -r "echo base64_decode('क का कि की कु कू के कै को कौ');" -- failing
+             * 
+             * SQL: SELECT TO_BASE64('क का कि की कु कू के कै को कौ');
+             * 4KSVIOCkleCkviDgpJXgpL8g4KSV4KWAIOCkleClgSDgpJXgpYIg4KSV4KWHIOCkleCliCDgpJXgpYsg4KSV4KWM
+             */
+            string original = "क का कि की कु कू के कै को कौ";
+            string expect_encoded = "4KSVIOCkleCkviDgpJXgpL8g4KSV4KWAIOCkleClgSDgpJXgpYIg4KSV4KWHIOCkleCliCDgpJXgpYsg4KSV4KWM";
+
+            hasher h = new hasher();
+            string encoded = h.base64_encode(original);
+            string decoded = h.base64_decode(encoded);
+
+            Assert.AreEqual(expect_encoded, encoded);
+            Assert.AreEqual(original, decoded);
+        }
     }
 }
