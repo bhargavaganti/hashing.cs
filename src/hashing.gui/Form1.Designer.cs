@@ -155,7 +155,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 23);
             this.button8.TabIndex = 12;
-            this.button8.Text = "Rinjdel Encode";
+            this.button8.Text = "Rinjdael Encode";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -166,7 +166,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(100, 23);
             this.button9.TabIndex = 13;
-            this.button9.Text = "Rinjdel Decode";
+            this.button9.Text = "Rinjdael Decode";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
